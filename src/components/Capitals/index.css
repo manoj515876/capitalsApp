@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #93c5fd;
+}
+
+.card {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+}
+
+.heading {
+  color: #323f4b;
+  font-family: 'Roboto';
+}
+.card-details {
+  display: flex;
+  align-items: center;
+}
+.card-select {
+  border: 1px solid #cbd2d9;
+  background-color: transparent;
+  width: 140px;
+  height: 30px;
+  outline: none;
+  padding: 4px;
+}
+.card-option {
+  color: #000000;
+  font-family: 'Roboto';
+}
+
+.para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.answer {
+  color: #1e293b;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
+
+@media Screen and (max-width: 768px) {
+  .card {
+    width: 400px;
+    height: 300px;
+  }
+}
